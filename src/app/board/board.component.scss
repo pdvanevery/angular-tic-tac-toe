@@ -1,3 +1,9 @@
+@import '@angular/material/prebuilt-themes/purple-green.css';
+
+button {
+    margin-bottom:1rem;
+}
+
 main{
     display: grid;
     grid-template-columns: 200px 200px 200px;
@@ -8,3 +14,4 @@ app-square{
     border: 1px gray solid;
     height: 200px;
 }
+
