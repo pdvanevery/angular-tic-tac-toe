@@ -11,7 +11,7 @@ export class BoardComponent implements OnInit {
   winner: string | null;
 
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
     this.newGame();
